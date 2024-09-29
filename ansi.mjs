@@ -8,13 +8,14 @@ const CLEAR_SCREEN = CSI + '2J';
 const CURSOR_HOME = CSI + '1;1H';
 const SAVE_CURSOR = ESC + '7';
 const RESTORE_CURSOR = ESC + '8';
-const moveCursorTo = (row, col) => `${CSI}${row};${col}H`;
+const moveCursorTo = (row, col) => CSI + row + ';' + col + 'H';
 const BELL = '\x07';
-const RESET = `${CSI}0m`;
-const GREEN = `${CSI}32m`;
-const RED = `${CSI}31m`;
-const YELLOW = `${CSI}33m`;
-const BLUE = `${CSI}34m`;
+const RESET = '\x1b[0m';
+const GREEN = '\x1b[32m';
+const RED = '\x1b[31m';
+const YELLOW = '\x1b[33m';
+const BLUE = '\x1b[34m';
+const MAGENTA = '\x1b[35m';
 
 const ANSI = {
     ESC,
@@ -35,7 +36,8 @@ const ANSI = {
         RED,
         YELLOW,
         BLUE,
+        MAGENTA
     }
-}
+};
 
-export { ANSI }
+export { ANSI };

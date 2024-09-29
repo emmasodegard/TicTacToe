@@ -78,6 +78,8 @@ async function showSettings() {
         language = DICTIONARY.en;
     } else if (languageChoice.toLowerCase() === "no") {
         language = DICTIONARY.no;
+    } else if (languageChoice.toLowerCase() === "es") {
+        language = DICTIONARY.es;
     }
 }
 
