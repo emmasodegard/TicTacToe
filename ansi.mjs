@@ -15,7 +15,6 @@ const GREEN = `${CSI}32m`;
 const RED = `${CSI}31m`;
 const YELLOW = `${CSI}33m`;
 const BLUE = `${CSI}34m`;
-const MAGENTA = `${CSI}35m`;
 
 const ANSI = {
     ESC,
@@ -36,7 +35,6 @@ const ANSI = {
         RED,
         YELLOW,
         BLUE,
-        MAGENTA,  // Make sure to include MAGENTA here
     }
 }
 
