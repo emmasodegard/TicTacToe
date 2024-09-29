@@ -1,0 +1,33 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "gameboard",
+        "endregion",
+        "MENY",
+        "Spille",
+        "Innstillinger",
+        "Avslutt",
+        "Velg",
+        "språk",
+        "spillmodus",
+        "vinner",
+        "uavgjort",
+        "important",
+        "everything",
+        "splash",
+        "board",
+        "choice",
+        "chosen",
+        "outcome",
+        "ANSI",
+        "ANS",
+        "askQuestion",
+        "print",
+        "showSplashScreen",
+        "PvP",
+        "PVC",
+        "initializeGame",
+        "currentPlayer"
+    ]
+}
